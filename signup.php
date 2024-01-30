@@ -27,7 +27,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST")
 <body>
 	<h1>Signup</h1>
 
-	<?php include('header.php')?>
+	<?php include('header.html') ?>
 
 	<div>
 		<div>

@@ -8,7 +8,7 @@
 
 	<h1>Home page</h1>
 
-	<?php include('header.php')?>
+	<?php include('header.html') ?>
 	
 </body>
 </html>

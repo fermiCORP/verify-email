@@ -14,7 +14,7 @@
 
 	<h1>Profile</h1>
 
-	<?php include('header.php');?>
+	<?php include('header.html');?>
  
 	<?php if(check_login(false)):?>
 		Hi, <?=$_SESSION['USER']->username?>;

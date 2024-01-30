@@ -72,7 +72,7 @@
 
 	<h1>Verify</h1>
 
-	<?php include('header.php');?>
+	<?php include('header.html');?>
   
 	<br><br>
  	<div>

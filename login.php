@@ -27,7 +27,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST")
 <body>
 	<h1>Login</h1>
 
-	<?php include('header.php')?>
+	<?php include('header.html') ?>
 
 	<div>
 		<div>
@@ -42,6 +42,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST")
 			<input type="email" name="email" placeholder="Email"><br>
 			<input type="password" name="password" placeholder="Password"><br>
 			<br>
+            <a href="forgot-password.php">forgot password</a>
 			<input type="submit" value="Login">
 		</form>
 	</div>
